@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html {
+  height: 100%;
+  width: 100%;
+  background-color: #10100E;
+  font-family: Pally;
+
+}
+
+.hero {
+  background-color: #10100E;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 40px;
+  /* border: solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.right {
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+
+  /* border: solid; */
+
+  display: flex;
+  align-items: center;
+  position: sticky;
+
+}
+
+.homeright {
+  /* border: solid; */
+  height: 200px;
+  width: 800px;
+  
+  border-radius: 40px;
+  padding-left: 20px;
+
+  
+}
+
+.card {
+  /* border: solid blue; */
+  width: 400px;
+  height: 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.nameRoleCard {
+  /* border: solid red; */
+}
+
+.myName {
+  font-size: 22px;
+  font-weight: 700;
+  color: #FEFFE3;
+}
+.myWork {
+  font-size: 19px;
+  font-weight: 700;
+  color: #FEFFE3;
+}
+h6 {
+  font-size: 14px;
+  color: rgb(169, 182, 221);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.links {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 12px;
+  margin-top: 6px;
+
+}
+a{
+text-decoration: none;
+color: #81817b;
+font-weight: 200;
+}
+
+
+
