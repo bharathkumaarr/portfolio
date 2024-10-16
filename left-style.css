@@ -27,21 +27,27 @@
     
     margin-top: 30px;
     border-radius: 20px;
-    padding: 10px;
+    padding: 8px;
     border: none;
 
     /* background-color: #29292941; */
 
     transition: 0.5s;
 
+    
+
 }
 .item:hover {
-    background-color: #10100E;
+    background-color: #1f1f1c;
     scale: 1.1;
-    box-shadow: 0px 0px 70px 0px #FEFFE3;
+    /* box-shadow: 0px 0px  #FEFFE3; */
 }
 
+.projectName {
+    font-size: 22px;
+}
 .year {
     color: #81817b;
     font-weight: 200;
+    font-size: 22px;
 }
