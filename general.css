@@ -8,8 +8,12 @@
     width: 100%;
     background-color: #10100E;
     font-family: 'Gilroy-Regular';
-
     cursor: none;
-  
   }
   
+  @media (max-width:768px) {
+    body {
+      cursor: auto;
+      overflow-x: hidden;
+    }
+  }

@@ -51,3 +51,28 @@
     font-weight: 200;
     font-size: 22px;
 }
+
+@media (max-width: 768px) {
+    .left {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        padding: 20px;
+    }
+    
+    .projects {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .item {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+    
+    .projectName, .year {
+        font-size: 18px;
+    }
+}
